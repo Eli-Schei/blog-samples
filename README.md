@@ -1,2 +1,2 @@
-# blog-samples
-A repository for different code samples used on my blog
+# Blog Samples
+This is a repository for different code samples I use in blogposts.
