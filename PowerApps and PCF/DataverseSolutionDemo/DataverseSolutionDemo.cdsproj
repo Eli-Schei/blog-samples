@@ -44,11 +44,8 @@
   </ItemGroup>
   
   <ItemGroup>
-    <ProjectReference Include="C:\Code\Blog-democode\blog-samples-repo\PowerApps and PCF\PCF-React-demo-component\PCF-React-demo-component.pcfproj" />
-    <ProjectReference Include="C:\Code\Blog-democode\blog-samples-repo\PowerApps and PCF\PCF-demo-component\PCF-demo-component.pcfproj" />
-    <ProjectReference Include="..\..\..\..\..\DEV\Prosjekter\Statsbygg\StatsbyggHusleie\apps\Calculation\AllOrdersPCFComponent.pcfproj" />
-    <ProjectReference Include="..\..\..\..\..\DEV\Prosjekter\Statsbygg\StatsbyggHusleie\apps\FDVU\FDVU.pcfproj" />
-    <ProjectReference Include="..\..\..\..\..\DEV\Prosjekter\Statsbygg\StatsbyggHusleie\apps\OrderForm\OrderFormPCFComponent.pcfproj" />
+    <ProjectReference Include="..\PCF-React-demo-component\PCF-React-demo-component.pcfproj" />
+    <ProjectReference Include="..\PCF-demo-component\PCF-demo-component.pcfproj" />
   </ItemGroup>
 
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
