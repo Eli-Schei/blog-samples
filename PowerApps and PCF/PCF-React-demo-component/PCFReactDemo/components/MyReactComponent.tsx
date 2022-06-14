@@ -8,14 +8,14 @@ interface IMyReactComponentProps {
 const MyReactComponent: React.FC<IMyReactComponentProps> = ({ appContext }) => {
   const dataSet = appContext.parameters.sampleDataSet;
   const allRecords = dataSet.sortedRecordIds.map((record) => {
-    return <label>{dataSet.records[record].getValue("cr933_name")}</label>;
+    return <div>{dataSet.records[record].getValue("cr933_name")}</div>;
   });
 
   return (
-    <form>
-      <label>Hello React in PCF!</label>
+    <section>
+      <h2>Hello datasource</h2>
       {allRecords}
-    </form>
+    </section>
   );
 };
 

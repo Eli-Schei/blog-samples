@@ -30,7 +30,7 @@ export class PCFReactDemo
   ): void {
     // Add control initialization code
     this._context = context;
-	this._container = container;
+    this._container = container;
   }
 
   /**

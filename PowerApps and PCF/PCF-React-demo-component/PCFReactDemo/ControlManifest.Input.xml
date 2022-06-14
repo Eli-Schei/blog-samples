@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <manifest>
-  <control namespace="ehs" constructor="PCFReactDemo" version="0.0.8" display-name-key="PCFReactDemo" description-key="PCFReactDemo description" control-type="standard" >
+  <control namespace="ehs" constructor="PCFReactDemo" version="0.0.9" display-name-key="PCFReactDemo" description-key="PCFReactDemo description" control-type="standard" >
    
     <!-- dataset node represents a set of entity records on CDS; allow more than one datasets -->
     <data-set name="sampleDataSet" display-name-key="Dataset_Display_Key">
