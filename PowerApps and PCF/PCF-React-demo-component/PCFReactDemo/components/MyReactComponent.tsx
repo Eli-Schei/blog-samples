@@ -8,13 +8,14 @@ interface IMyReactComponentProps {
 const MyReactComponent: React.FC<IMyReactComponentProps> = ({ appContext }) => {
   const dataSet = appContext.parameters.sampleDataSet;
   const allRecords = dataSet.sortedRecordIds.map((record) => {
-    return <div>{dataSet.records[record].getValue("cr933_name")}</div>;
+    return <div>{dataSet.records[record].getValue("value")}</div>;
   });
 
   return (
     <section>
-      <h2>Hello datasource</h2>
-      {allRecords}
+      <h2>Hello, this is a React component</h2>
+      <p>I like to render and sing! </p>
+      <p>{allRecords}</p>
     </section>
   );
 };
